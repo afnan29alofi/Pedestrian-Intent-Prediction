@@ -1,8 +1,8 @@
 # Pedestrian Intent Prediction 
   
-## Notification  
+## **Pedestrian Intent Prediction**  
 
-**Pedestrian Intent Prediction**  
+
 
 
 **abstract**
