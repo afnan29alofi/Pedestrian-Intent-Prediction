@@ -12,10 +12,6 @@ Our implementation relied on the pedestrian action prediction benchmark: `Kotser
 
 
 
-We recommend using `conda` to create your environment. 
-
-We provide the conda environment's `spec-list.txt` in this repo, in case you want to recover the exact same environment as ours. 
-
 ## Dataset Preparation  
 
 Download the [JAAD Annotation](https://github.com/ykotseruba/JAAD) and put `JAAD` file to this project's root directory (as `./JAAD`).  
