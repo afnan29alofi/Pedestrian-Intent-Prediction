@@ -50,13 +50,12 @@ python train_test.py -c config_files/Ours/PPCI_att_Jaad.yaml # PPCI_att
 
 
 # ablation study
-python train_test.py -c config_files/Ours/MASK_PCPA_jaad.yaml    # ours1
-python train_test.py -c config_files/Ours/MASK_PCPA_jaad.yaml  # ours2
-python train_test.py -c config_files/Ours/MASK_PCPA_jaad.yaml  # ours3
-python train_test.py -c config_files/Ours/PCPA_jaad_2d.yaml      # ours4
-python train_test.py -c config_files/Ours/MASK_PCPA_jaad_2d.yaml  # ours5
-python train_test.py -c config_files/Ours/MASK_PCPA_jaad_2d.yaml  # ours6
-python train_test.py -c config_files/Ours/MASK_PCPA_jaad_2d.yaml  # ours7
+python train_test.py -c config_files/Ours/PPCI_att_Jaad_pose.yaml  # Features just pose
+python train_test.py -c config_files/Ours/PPCI_att_Jaad_box.yaml  # Features just bound box
+python train_test.py -c config_files/Ours/PPCI_att_Jaad_pose_box.yaml # Features just pose and bound box
+python train_test.py -c config_files/Ours/PPCI_att_early_Jaad.yaml      # PPCI_att_early
+python train_test.py -c config_files/Ours/PPCI_att_later_Jaad.yaml   # PPCI_att_later
+
 ```
 
 - PIE dataset: 
@@ -69,13 +68,12 @@ python train_test.py -c config_files_pie/Ours/PPCI_att.yaml  # PPCI_att
 
 
 # ablation study
-python train_test.py -c config_files_pie/laterfusion/MASK_PCPA_jaad.yaml    # ours1
-python train_test.py -c config_files_pie/earlyfusion/MASK_PCPA_jaad.yaml  # ours2
-python train_test.py -c config_files_pie/hierfusion/MASK_PCPA_jaad.yaml  # ours3
-python train_test.py -c config_files_pie/baseline/PCPA_jaad_2d.yaml      # ours4
-python train_test.py -c config_files_pie/laterfusion/MASK_PCPA_jaad_2d.yaml  # ours5
-python train_test.py -c config_files_pie/earlyfusion/MASK_PCPA_jaad_2d.yaml  # ours6
-python train_test.py -c config_files_pie/hierfusion/MASK_PCPA_jaad_2d.yaml  # ours7
+python train_test.py -c config_files/Ours/PPCI_att_pose.yaml  # Features just pose
+python train_test.py -c config_files/Ours/PPCI_att_box.yaml  # Features just bound box
+python train_test.py -c config_files/Ours/PPCI_att_pose_box.yaml # Features just pose and bound box
+python train_test.py -c config_files/Ours/PPCI_att_early.yaml      # PPCI_att_early
+python train_test.py -c config_files/Ours/PPCI_att_later.yaml   # PPCI_att_later
+
 ```
 
 
