@@ -45,20 +45,18 @@ Above operation will create a folder called `images` and save the extracted imag
 ```shell
 # === run on JAAD datasets ===
 
-# benchmark comparison
-python train_test.py -c config_files/baseline/PCPA_jaad.yaml  # PCPA
-python train_test.py -c config_files/baseline/SingleRNN.yaml  # SingleRNN
-python train_test.py -c config_files/baseline/SFRNN.yaml      # SF-GRU
-python train_test.py -c config_files/ours/MASK_PCPA_jaad_2d.yaml  # ours
+
+python train_test.py -c config_files/Ours/PPCI_att_Jaad.yaml # PPCI_att
+
 
 # ablation study
-python train_test.py -c config_files/laterfusion/MASK_PCPA_jaad.yaml    # ours1
-python train_test.py -c config_files/earlyfusion/MASK_PCPA_jaad.yaml  # ours2
-python train_test.py -c config_files/hierfusion/MASK_PCPA_jaad.yaml  # ours3
-python train_test.py -c config_files/baseline/PCPA_jaad_2d.yaml      # ours4
-python train_test.py -c config_files/laterfusion/MASK_PCPA_jaad_2d.yaml  # ours5
-python train_test.py -c config_files/earlyfusion/MASK_PCPA_jaad_2d.yaml  # ours6
-python train_test.py -c config_files/hierfusion/MASK_PCPA_jaad_2d.yaml  # ours7
+python train_test.py -c config_files/Ours/MASK_PCPA_jaad.yaml    # ours1
+python train_test.py -c config_files/Ours/MASK_PCPA_jaad.yaml  # ours2
+python train_test.py -c config_files/Ours/MASK_PCPA_jaad.yaml  # ours3
+python train_test.py -c config_files/Ours/PCPA_jaad_2d.yaml      # ours4
+python train_test.py -c config_files/Ours/MASK_PCPA_jaad_2d.yaml  # ours5
+python train_test.py -c config_files/Ours/MASK_PCPA_jaad_2d.yaml  # ours6
+python train_test.py -c config_files/Ours/MASK_PCPA_jaad_2d.yaml  # ours7
 ```
 
 - PIE dataset: 
@@ -66,11 +64,9 @@ python train_test.py -c config_files/hierfusion/MASK_PCPA_jaad_2d.yaml  # ours7
 ```shell
 # === run on PIE datasets ===
 
-# benchmark comparison
-python train_test.py -c config_files_pie/baseline/PCPA_jaad.yaml  # PCPA
-python train_test.py -c config_files_pie/baseline/SingleRNN.yaml  # SingleRNN
-python train_test.py -c config_files_pie/baseline/SFRNN.yaml      # SF-GRU
-python train_test.py -c config_files_pie/ours/MASK_PCPA_jaad_2d.yaml   # ours
+
+python train_test.py -c config_files_pie/Ours/PPCI_att.yaml  # PPCI_att
+
 
 # ablation study
 python train_test.py -c config_files_pie/laterfusion/MASK_PCPA_jaad.yaml    # ours1
