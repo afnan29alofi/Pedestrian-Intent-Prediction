@@ -1,4 +1,4 @@
-# Pedestrian Intent Prediction 
+# A Lightweight LSTM-Attention Architecture and Experimental Evaluations with Real-World Datasets
   
 ## **Pedestrian Intent Prediction**  
 
